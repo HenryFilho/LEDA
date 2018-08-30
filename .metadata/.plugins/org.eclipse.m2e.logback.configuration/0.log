@@ -1,0 +1,17 @@
+2018-08-30 14:15:41,825 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-08-30 14:17:13,837 [Worker-6: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.ufcg.ccc:submission:1.0 @ /home/henrymlnf/Downloads/RR2-01-Roteiro-Revisao-Generics-environment/pom.xml.
+2018-08-30 14:17:16,454 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /submission/src/main/java
+2018-08-30 14:17:16,456 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /submission/src/test/java
+2018-08-30 14:17:17,760 [Worker-6: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 10 sec
+2018-08-30 14:17:20,903 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-30 14:17:20,921 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/Downloads/RR2-01-Roteiro-Revisao-Generics-environment/src/main/resources
+2018-08-30 14:17:20,926 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-30 14:17:20,927 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/Downloads/RR2-01-Roteiro-Revisao-Generics-environment/src/test/resources
+2018-08-30 14:18:06,046 [Worker-13: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.ufcg.ccc:submission:1.0 @ /home/henrymlnf/Downloads/RR2-01-Roteiro-Revisao-Generics-environment/pom.xml.
+2018-08-30 14:18:06,604 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-30 14:18:06,609 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/Downloads/RR2-01-Roteiro-Revisao-Generics-environment/src/main/resources
+2018-08-30 14:18:06,617 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-30 14:18:06,619 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/Downloads/RR2-01-Roteiro-Revisao-Generics-environment/src/test/resources
+2018-08-30 14:18:13,110 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-08-30 14:18:21,818 [Worker-12: Launching RR2-01-Roteiro-Revisao-Generics-environment] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/henrymlnf/Downloads/RR2-01-Roteiro-Revisao-Generics-environment
+2018-08-30 14:18:21,820 [Worker-12: Launching RR2-01-Roteiro-Revisao-Generics-environment] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests install
