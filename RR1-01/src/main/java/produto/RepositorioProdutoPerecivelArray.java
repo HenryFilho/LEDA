@@ -14,95 +14,20 @@ package produto;
  * @author Adalberto
  *
  */
-public class RepositorioProdutoPerecivelArray {
-
-	/**
-	 * A estrutura (array) onde os produtos sao mantidos.
-	 */
-	private ProdutoPerecivel[] produtos;
-
-	/**
-	 * A posicao do ultimo elemento inserido no array de produtos. o valor
-	 * inicial é -1 para indicar que nenhum produto foi ainda guardado no array.
-	 */
-	private int index = -1;
+public class RepositorioProdutoPerecivelArray extends RepositorioProdutoArray {
 
 	public RepositorioProdutoPerecivelArray(int size) {
-		super();
-		this.produtos = new ProdutoPerecivel[size];
+		super(size);
 	}
 
-	/**
-	 * Recebe o codigo do produto e devolve o indice desse produto no array ou
-	 * -1 caso ele nao se encontre no array. Esse método é util apenas na
-	 * implementacao com arrays por questoes de localizacao. Outras classes que
-	 * utilizam outras estruturas internas podem nao precisar desse método.
-	 * 
-	 * @param codigo
-	 * @return
-	 */
-	private int procurarIndice(int codigo) {
-		int result = -1;
-		for(int i = 0; i < produtos.length; i++) {
-			if(produtos[i].getCodigo() == codigo) {
-				result = i;
-				break;
-			}
-		}return result;
+	@Override
+	public void inserir(Produto produto) {
+		if(produto instanceof ProdutoPerecivel) super.inserir(produto);
 	}
 
-	/**
-	 * Recebe o codigo e diz se tem produto com esse codigo armazenado
-	 * 
-	 * @param codigo
-	 * @return
-	 */
-	public boolean existe(int codigo) {
-		boolean result = false;
-		if(procurarIndice(codigo) != -1)
-			result = true;
-		return result;
+	@Override
+	public void atualizar(Produto produto) {
+		if(produto instanceof ProdutoPerecivel) super.atualizar(produto);
 	}
 
-	/**
-	 * Insere um novo produto (sem se preocupar com duplicatas)
-	 */
-	public void inserir(ProdutoPerecivel produto) {
-		if(index+1 < produtos.length)
-			produtos[index++] = produto;
-	}
-
-	/**
-	 * Atualiza um produto armazenado ou retorna um erro caso o produto nao
-	 * esteja no array. Note que, para localizacao, o código do produto será
-	 * utilizado.
-	 */
-	public void atualizar(ProdutoPerecivel produto) {
-		// TODO Implement your code here
-		throw new UnsupportedOperationException("Not implemented yet!");
-	}
-
-	/**
-	 * Remove produto com determinado codigo, se existir, ou entao retorna um
-	 * erro, caso contrário. Note que a remoção NÃO pode deixar "buracos" no
-	 * array.
-	 * 
-	 * @param codigo
-	 */
-	public void remover(int codigo) {
-		// TODO Implement your code here
-		throw new UnsupportedOperationException("Not implemented yet!");
-	}
-
-	/**
-	 * Retorna um produto com determinado codigo ou entao um erro, caso o
-	 * produto nao esteja armazenado
-	 * 
-	 * @param codigo
-	 * @return
-	 */
-	public ProdutoPerecivel procurar(int codigo) {
-		// TODO Implement your code here
-		throw new UnsupportedOperationException("Not implemented yet!");
-	}
 }

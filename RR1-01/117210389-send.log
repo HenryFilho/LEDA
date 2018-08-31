@@ -7,3 +7,23 @@
   <level>FINE</level>
   <message>File 117210389-HENRY MALDINEY DE LIRA NOBREGA FILHO.zip was received. It was sent by HENRY MALDINEY DE LIRA NOBREGA FILHO from IP 150.165.42.205</message>
 </record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-08-28T01:33:16.510-0300</date>
+  <logger>HENRY MALDINEY DE LIRA NOBREGA FILHO</logger>
+  <level>FINE</level>
+  <message>File 117210389-HENRY MALDINEY DE LIRA NOBREGA FILHO.zip was received. It was sent by HENRY MALDINEY DE LIRA NOBREGA FILHO from IP 192.168.15.11</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-08-28T11:08:02.717-0300</date>
+  <logger>HENRY MALDINEY DE LIRA NOBREGA FILHO</logger>
+  <level>FINE</level>
+  <message>File 117210389-HENRY MALDINEY DE LIRA NOBREGA FILHO.zip was received. It was sent by HENRY MALDINEY DE LIRA NOBREGA FILHO from IP 192.168.15.14</message>
+</record>

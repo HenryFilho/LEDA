@@ -9,25 +9,18 @@ import java.util.Comparator;
  * @author Adalberto
  *
  */
-public class Vetor {
+public class Vetor<T> {
 
 	// O array interno onde os objetos manipulados são guardados
-	private Object[] arrayInterno;
-
-	// O tamanho que o array interno terá
-	private int tamanho;
-
-	// Indice que guarda a proxima posição vazia do array interno
-	private int indice;
+	private T[] array;
 
 	// O Comparators a serem utilizados
 	private Comparator comparadorMaximo;
 	private Comparator comparadorMinimo;
 
-	public Vetor(int tamanho) {
-		super();
-		this.tamanho = tamanho;
-		this.indice = -1;
+	@SuppressWarnings("unchecked")
+	public Vetor() {
+		array = (T[]) new Object[1];
 	}
 
 	public void setComparadorMaximo(Comparator comparadorMaximo) {
@@ -39,33 +32,58 @@ public class Vetor {
 	}
 
 	// Insere um objeto no vetor
-	public void inserir(Object o) {
-		// TODO Remove the exception and implement your code
-		throw new UnsupportedOperationException("Not implemented yet!");
+	public void inserir(T t) {
+		resize(array.length+1);
+		
+		array[array.length-1] = t;
 	}
 
 	// Remove um objeto do vetor
-	public Object remover(Object o) {
-		// TODO Remove the exception and implement your code
-		throw new UnsupportedOperationException("Not implemented yet!");
+	public T remover(int indice) {
+		if(indice >= array.length)
+			throw new IndexOutOfBoundsException();
+		if(indice < 0)
+			throw new IllegalArgumentException();
+		
+		T result = array[indice];
+		
+		if(indice < array.length-1)
+			for (int i = indice; i < array.length-1; i++)
+				array[i] = array[i+1];
+		resize(array.length-1);
+		
+		return result;
 	}
 
 	// Procura um elemento no vetor
-	public Object procurar(Object o) {
-		// TODO Remove the exception and implement your code
-		throw new UnsupportedOperationException("Not implemented yet!");
+	public T procurar(int indice) {
+		if(indice >= array.length)
+			throw new IndexOutOfBoundsException();
+		if(indice < 0)
+			throw new IllegalArgumentException();
+		
+		return array[indice];
 	}
 
 	// Diz se o vetor está vazio
 	public boolean isVazio() {
-		// TODO Remove the exception and implement your code
-		throw new UnsupportedOperationException("Not implemented yet!");
+		return array.length == 0;
 	}
 
-	// Diz se o vetor está cheio
-	public boolean isCheio() {
-		// TODO Remove the exception and implement your code
-		throw new UnsupportedOperationException("Not implemented yet!");
+	@SuppressWarnings("unchecked")
+	private void resize(int novoTamanho) {
+		T[] novaArray = (T[]) new Object[novoTamanho];
+		
+		int percorrer = 0;
+		if(array.length < novaArray.length)
+			percorrer = array.length;
+		else
+			percorrer = novaArray.length;
+		
+		for (int i = 0; i < percorrer; i++) {
+			novaArray[i] = array[i];
+		}
+		array = novaArray;
 	}
-
+	
 }
