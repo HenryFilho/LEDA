@@ -294,3 +294,16 @@ org.eclipse.core.runtime.CoreException: Could not read maven project
 2018-08-31 07:52:18,312 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/claris/LEDA/RR2-01/src/main/resources
 2018-08-31 07:52:18,313 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2018-08-31 07:52:18,313 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/claris/LEDA/RR2-01/src/test/resources
+2018-08-31 10:28:55,455 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-08-31 10:29:02,393 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/claris/LEDA/RR2-01
+2018-08-31 10:29:02,394 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-08-31 10:30:44,195 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-08-31 10:30:50,099 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/claris/LEDA/RR2-01
+2018-08-31 10:30:50,099 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-08-31 10:36:06,779 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-08-31 10:36:13,869 [Worker-33] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/claris/LEDA/RR2-01
+2018-08-31 10:36:13,869 [Worker-33] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-08-31 10:45:12,875 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-31 10:45:12,877 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/claris/LEDA/RR2-01/src/main/resources
+2018-08-31 10:45:12,878 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-31 10:45:12,879 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/claris/LEDA/RR2-01/src/test/resources
