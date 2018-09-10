@@ -977,6 +977,13 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2018-08-31 07:52:18.313
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+<<<<<<< HEAD
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-08-31 10:45:12.876
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-08-31 10:45:12.878
+=======
 !SESSION 2018-09-03 16:17:58.846 -----------------------------------------------
 eclipse.buildId=4.8.0.I20180611-0500
 java.version=1.8.0_181
@@ -2522,6 +2529,7 @@ java.lang.ClassNotFoundException: org.eclipse.jgit.lfs.BuiltinLFS cannot be foun
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2018-09-06 15:50:54.155
+>>>>>>> 10be7bf06e082438410e1936b3d8b8021defbdbd
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2018-09-06 15:53:50.651
