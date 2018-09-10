@@ -609,3 +609,41 @@ org.eclipse.core.runtime.CoreException: Could not read maven project
 2018-09-06 15:50:54,155 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R01-01/src/test/resources
 2018-09-06 15:51:09,323 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
 >>>>>>> 10be7bf06e082438410e1936b3d8b8021defbdbd
+2018-09-07 16:54:46,239 [Worker-10] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-09-07 16:54:52,869 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-07 16:54:52,906 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/claris/LEDA/RR1-01/src/main/resources
+2018-09-07 16:54:52,908 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-07 16:54:52,909 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/claris/LEDA/RR1-01/src/test/resources
+2018-09-07 16:54:52,953 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-07 16:54:52,954 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/claris/LEDA/RR2-01/src/main/resources
+2018-09-07 16:54:52,955 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-07 16:54:52,955 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/claris/LEDA/RR2-01/src/test/resources
+2018-09-07 16:55:09,771 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.ufcg.ccc:submission:1.0 @ /Users/claris/LEDA/RR3-01/pom.xml.
+2018-09-07 16:55:09,913 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RR3-01/src/main/java
+2018-09-07 16:55:09,914 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RR3-01/src/test/java
+2018-09-07 16:55:09,957 [Worker-8] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2018-09-07 16:55:10,683 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-07 16:55:10,684 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/claris/LEDA/RR3-01/src/main/resources
+2018-09-07 16:55:10,687 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-07 16:55:10,687 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/claris/LEDA/RR3-01/src/test/resources
+2018-09-07 16:55:22,956 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://150.165.85.29:8081/nexus/content/repositories/ufcg-leda/br/edu/ufcg/ccc/leda-chart-tool/1.0.0-SNAPSHOT/maven-metadata.xml
+2018-09-07 16:55:23,091 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://150.165.85.29:8081/nexus/content/repositories/ufcg-leda/br/edu/ufcg/ccc/leda-chart-tool/1.0.0-SNAPSHOT/maven-metadata.xml
+2018-09-07 16:55:23,491 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://150.165.85.29:8081/nexus/content/repositories/ufcg-leda/br/edu/ufcg/ccc/leda-chart-tool/1.0.0-SNAPSHOT/leda-chart-tool-1.0.0-20180827.202530-5.jar
+2018-09-07 16:55:24,776 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://150.165.85.29:8081/nexus/content/repositories/ufcg-leda/br/edu/ufcg/ccc/leda-chart-tool/1.0.0-SNAPSHOT/leda-chart-tool-1.0.0-20180827.202530-5.jar
+2018-09-07 16:55:24,813 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.ufcg.ccc:submission:1.0 @ /Users/claris/LEDA/R01-01/pom.xml.
+2018-09-07 16:55:24,852 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /R01-01/src/main/java
+2018-09-07 16:55:24,852 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /R01-01/src/test/java
+2018-09-07 16:55:24,897 [Worker-2] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2018-09-07 16:55:25,136 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-07 16:55:25,137 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/claris/LEDA/R01-01/src/main/resources
+2018-09-07 16:55:25,139 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-07 16:55:25,140 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/claris/LEDA/R01-01/src/test/resources
+2018-09-07 16:58:11,059 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-09-07 17:01:29,152 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.ufcg.ccc:submission:1.0 @ /Users/claris/LEDA/R01-01/pom.xml.
+2018-09-07 17:01:29,294 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-07 17:01:29,295 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/claris/LEDA/R01-01/src/main/resources
+2018-09-07 17:01:29,296 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-07 17:01:29,297 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/claris/LEDA/R01-01/src/test/resources
+2018-09-07 17:01:39,618 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-09-07 17:01:46,725 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/claris/LEDA/R01-01
+2018-09-07 17:01:46,726 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install

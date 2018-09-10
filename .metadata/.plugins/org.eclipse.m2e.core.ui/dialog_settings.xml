@@ -14,6 +14,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Users/claris/LEDA/R01-01"/>
+			<item value="/Users/claris/LEDA/RR3-01"/>
 			<item value="/home/henrymlnf/Downloads/RR2-01-Roteiro-Revisao-Generics-environment"/>
 		</list>
 		<list key="projectNameTemplate">
