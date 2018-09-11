@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="sorting.divideAndConquer.QuickSort"/>
+    <fullyQualifiedTypeName name="util.Util"/>
+    <fullyQualifiedTypeName name="sorting.divideAndConquer.threeWayQuicksort.ThreeWayQuickSort"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="sorting.simpleSorting.BubbleSort"/>
+    <fullyQualifiedTypeName name="sorting.variationsOfBubblesort.SimultaneousBubblesort"/>
+</qualifiedTypeNameHistroy>

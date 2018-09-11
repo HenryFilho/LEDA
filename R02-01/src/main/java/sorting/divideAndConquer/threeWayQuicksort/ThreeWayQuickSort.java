@@ -1,10 +1,11 @@
 package sorting.divideAndConquer.threeWayQuicksort;
 
 import sorting.AbstractSorting;
+import util.Util;
 
 public class ThreeWayQuickSort<T extends Comparable<T>> extends
 		AbstractSorting<T> {
-
+	
 	/**
 	 * No algoritmo de quicksort, selecionamos um elemento como pivot,
 	 * particionamos o array colocando os menores a esquerda do pivot 
@@ -25,8 +26,25 @@ public class ThreeWayQuickSort<T extends Comparable<T>> extends
 	 **/
 	@Override
 	public void sort(T[] array, int leftIndex, int rightIndex) {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		if(leftIndex < rightIndex) {
+			int[] middleRange = partition(array, leftIndex, rightIndex);
+			sort(array, leftIndex, middleRange[0]-1);
+			sort(array, middleRange[1]+1, rightIndex);
+		}
+	}
+	
+	private int[] partition(T[] arr, int left, int right) {
+		int lt = left, i = left+1, gt = right;
+		while(i <= gt) {
+			if(arr[i].compareTo(arr[lt]) < 0) {
+				Util.swap(arr, i++, lt++);
+			}else if(arr[i].compareTo(arr[lt]) > 0) {
+				Util.swap(arr, i, gt--);
+			}else {
+				i++;
+			}
+		}
+		return new int[] {lt, gt};
 	}
 
 }

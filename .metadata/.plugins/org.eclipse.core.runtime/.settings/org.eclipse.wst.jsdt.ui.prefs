@@ -1,9 +1,9 @@
-CONTENT_ASSIST_BACKGROUND_COLOR=39,22,65
-CONTENT_ASSIST_FOREGROUND_COLOR=235,228,246
-content_assist_parameters_background=39,22,65
-content_assist_parameters_foreground=235,228,246
-content_assist_proposals_background=39,22,65
-content_assist_proposals_foreground=235,228,246
+CONTENT_ASSIST_BACKGROUND_COLOR=46,52,56
+CONTENT_ASSIST_FOREGROUND_COLOR=233,235,237
+content_assist_parameters_background=46,52,56
+content_assist_parameters_foreground=233,235,237
+content_assist_proposals_background=46,52,56
+content_assist_proposals_foreground=233,235,237
 eclipse.preferences.version=1
 fontPropagated=true
 org.eclipse.jface.textfont=1|Monospace|10.0|0|GTK|1|;

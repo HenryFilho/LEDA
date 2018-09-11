@@ -1,6 +1,8 @@
 package sorting.test;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 import org.junit.Assert;
 import org.junit.Before;
@@ -8,6 +10,8 @@ import org.junit.Test;
 
 import sorting.AbstractSorting;
 import sorting.divideAndConquer.MergeSort;
+import sorting.divideAndConquer.QuickSort;
+import sorting.divideAndConquer.threeWayQuicksort.ThreeWayQuickSort;
 
 public class StudentSortingTest {
 
@@ -39,7 +43,7 @@ public class StudentSortingTest {
 	private void getImplementation() {
 		// TODO O aluno deve instanciar sua implementação abaixo ao invés de
 		// null
-		this.implementation = new MergeSort<>();
+		this.implementation = new ThreeWayQuickSort<>();
 	}
 
 	public void populaVetorTamanhoPar(Integer[] arrayPadrao) {
@@ -99,11 +103,25 @@ public class StudentSortingTest {
 		genericTest(vetorValoresRepetidos);
 	}
 
-	// MÉTODOS QUE OS ALUNOS PODEM CRIAR
-	/**
-	 * O ALUNO PODE IMPLEMENTAR METODOS DE ORDENAÇÃO TESTANDO O SORT COM TRES
-	 * ARGUMENTOS PARA TESTAR A ORDENACAO EM UM PEDAÇO DO ARRAY. DICA: PROCUREM
-	 * SEGUIR A ESTRUTURA DOS MÉTODOS DE TESTE ACIMA DESCRITOS, ORDENANDO APENAS
-	 * UMA PARTE DO ARRAY.
-	 */
+	@Test
+	public void testSort06() {
+		int qtd = 20000;
+		Integer[] array = new Integer[qtd];
+		
+		for(int i = 0; i < array.length; i++) {
+			array[i] = (int) (Math.random()*qtd);
+		}
+		
+		Map<String,AbstractSorting<Integer>> sorts = new HashMap<>();
+				sorts.put("QuickSort", new QuickSort<>());
+				sorts.put("MergeSort", new MergeSort<>());
+				sorts.put("3Way", new ThreeWayQuickSort<>());
+		for(String sort : sorts.keySet()) {
+			this.implementation = sorts.get(sort);
+			long inicio = System.currentTimeMillis();
+			genericTest(array);
+			long fim = System.currentTimeMillis();
+			System.out.println("Executado em = " + (fim-inicio) + "ms (" + sort + ")");
+		}
+	}
 }

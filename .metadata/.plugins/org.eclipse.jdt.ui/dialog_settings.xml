@@ -31,6 +31,9 @@
 	</section>
 	<section name="RenameInformationPopup">
 	</section>
+	<section name="OptionalMessageDialog.hide.">
+		<item value="false" key="EmptyDefaultAssistCategory"/>
+	</section>
 	<section name="quick_assist_proposal_size">
 	</section>
 	<section name="completion_proposal_size">
