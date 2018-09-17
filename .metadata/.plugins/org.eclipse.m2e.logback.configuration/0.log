@@ -1970,3 +1970,161 @@ Caused by: java.io.FileNotFoundException: /Users/claris/LEDA/.metadata/.plugins/
 2018-09-13 15:39:33,745 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
 2018-09-13 15:39:39,873 [Worker-49: Launching R03-01 (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/henrymlnf/LEDA/R03-01
 2018-09-13 15:39:39,874 [Worker-49: Launching R03-01 (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-09-13 15:41:55,703 [Worker-54: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 15:41:55,704 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R03-01/src/main/resources
+2018-09-13 15:41:55,706 [Worker-54: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 15:41:55,708 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R03-01/src/test/resources
+2018-09-17 16:08:15,333 [Worker-0: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-09-17 16:08:19,537 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.ufcg.ccc:submission:1.0 @ /home/henrymlnf/LEDA/R03-01/pom.xml.
+2018-09-17 16:09:30,223 [Worker-6: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.ufcg.ccc:submission:1.0 @ /home/henrymlnf/LEDA/R04-01/pom.xml.
+2018-09-17 16:09:53,121 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /R04-01/src/main/java
+2018-09-17 16:09:53,178 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /R04-01/src/test/java
+2018-09-17 16:09:55,064 [Worker-6: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 64 sec
+2018-09-17 16:10:00,568 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-09-17 16:10:47,864 [Worker-6: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.ufcg.ccc:submission:1.0 @ /home/henrymlnf/LEDA/R04-01/pom.xml.
+2018-09-17 16:10:50,319 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:10:50,329 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 16:10:50,334 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:10:50,340 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 16:10:55,612 [Worker-6: Launching R04-01] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/henrymlnf/LEDA/R04-01
+2018-09-17 16:10:55,613 [Worker-6: Launching R04-01] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests install
+2018-09-17 16:29:24,345 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:29:24,348 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 16:29:24,449 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:29:24,452 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 16:29:25,563 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:29:25,565 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 16:29:25,569 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:29:25,571 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 16:29:53,703 [Worker-16: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:29:53,707 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 16:29:53,711 [Worker-16: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:29:53,714 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 16:30:07,525 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:30:07,529 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 16:30:07,532 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:30:07,538 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 16:30:15,598 [Worker-16: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:30:15,609 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 16:30:15,623 [Worker-16: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:30:15,626 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 16:31:12,909 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:31:12,915 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 16:31:12,918 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:31:12,922 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 16:31:53,354 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:31:53,360 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 16:31:53,365 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:31:53,369 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 16:32:09,758 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:32:09,767 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 16:32:09,776 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:32:09,782 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 16:32:15,891 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:32:15,896 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 16:32:15,904 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:32:15,910 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 16:33:18,149 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:33:18,151 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 16:33:18,153 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:33:18,155 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 16:33:37,008 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:33:37,023 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 16:33:37,027 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:33:37,034 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 16:35:07,505 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:35:07,508 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 16:35:07,517 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:35:07,519 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 16:35:11,464 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:35:11,487 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 16:35:11,490 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:35:11,498 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 16:37:27,095 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:37:27,107 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 16:37:27,110 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:37:27,116 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 16:37:30,532 [Worker-26: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:37:30,534 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 16:37:30,538 [Worker-26: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:37:30,543 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 16:37:41,057 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:37:41,074 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 16:37:41,080 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:37:41,105 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 16:38:44,981 [Worker-27: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:38:44,985 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 16:38:44,991 [Worker-27: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:38:44,996 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 16:48:42,534 [Worker-27: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:48:42,538 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 16:48:42,540 [Worker-27: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:48:42,544 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 16:50:42,438 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:50:42,440 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 16:50:42,443 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:50:42,452 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 16:51:03,738 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:51:03,740 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 16:51:03,742 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:51:03,748 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 16:54:33,135 [Worker-37: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:54:33,147 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 16:54:33,149 [Worker-37: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:54:33,159 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 16:54:42,429 [Worker-33: Launching StudentSortingTest (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:54:42,432 [Worker-33: Launching StudentSortingTest (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 16:54:42,434 [Worker-33: Launching StudentSortingTest (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 16:54:42,436 [Worker-33: Launching StudentSortingTest (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 17:13:52,344 [Worker-40: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 17:13:52,363 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 17:13:52,365 [Worker-40: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 17:13:52,372 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 17:14:07,802 [Worker-44: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 17:14:07,806 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 17:14:07,808 [Worker-44: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 17:14:07,812 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 17:15:03,371 [Worker-43: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 17:15:03,374 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 17:15:03,382 [Worker-43: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 17:15:03,400 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 17:16:17,597 [Worker-44: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 17:16:17,599 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 17:16:17,601 [Worker-44: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 17:16:17,603 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 17:16:29,819 [Worker-40: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 17:16:29,821 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 17:16:29,823 [Worker-40: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 17:16:29,824 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 17:17:09,762 [Worker-42: Launching StudentSortingTest (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 17:17:09,775 [Worker-42: Launching StudentSortingTest (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 17:17:09,778 [Worker-42: Launching StudentSortingTest (1)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 17:17:09,780 [Worker-42: Launching StudentSortingTest (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 17:17:28,616 [Worker-42: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 17:17:28,618 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 17:17:28,625 [Worker-42: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 17:17:28,628 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 17:17:40,109 [Worker-41: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 17:17:40,113 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 17:17:40,128 [Worker-41: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 17:17:40,131 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 17:24:02,707 [Worker-44: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 17:24:02,711 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 17:24:02,716 [Worker-44: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 17:24:02,719 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 17:24:47,124 [Worker-47: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 17:24:47,133 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 17:24:47,135 [Worker-47: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 17:24:47,137 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 17:24:53,509 [Worker-46: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 17:24:53,524 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 17:24:53,527 [Worker-46: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 17:24:53,532 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 17:26:23,640 [Worker-46: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.ufcg.ccc:submission:1.0 @ /home/henrymlnf/LEDA/R04-01/pom.xml.
+2018-09-17 17:26:24,600 [Worker-46: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 17:26:24,602 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/main/resources
+2018-09-17 17:26:24,609 [Worker-46: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 17:26:24,615 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/henrymlnf/LEDA/R04-01/src/test/resources
+2018-09-17 17:26:26,642 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-09-17 17:26:35,916 [Worker-44: Launching R04-01 (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/henrymlnf/LEDA/R04-01
+2018-09-17 17:26:35,916 [Worker-44: Launching R04-01 (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
