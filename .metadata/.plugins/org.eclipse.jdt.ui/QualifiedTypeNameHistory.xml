@@ -8,4 +8,6 @@
     <fullyQualifiedTypeName name="sorting.simpleSorting.BubbleSort"/>
     <fullyQualifiedTypeName name="sorting.variationsOfBubblesort.SimultaneousBubblesort"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="adt.hashtable.hashfunction.HashFunctionClosedAddress"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
 </qualifiedTypeNameHistroy>

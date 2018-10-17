@@ -103,7 +103,7 @@ public class HashtableClosedAddressImpl<T> extends
 				while(i < list.size()) {
 					if(list.get(i).equals(element)) {
 						list.remove(i);
-						if(list.size() > 0) this.COLLISIONS--;
+						//if(list.size() > 0) this.COLLISIONS--;
 						this.elements--;
 					}else i++;
 				}
